@@ -1,0 +1,110 @@
+.Rightbar {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 370px;
+  background: #000000;
+}
+
+.btnbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15px;
+}
+.avldrop {
+  border: 0;
+  height: 40px;
+  width: 147px;
+  background: #353945;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.0211px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-right: 10px;
+  padding: 0px 10px 0px 8px;
+}
+.walldrop {
+  height: 40px;
+  width: 147px;
+  background: #000000;
+  border: 1px solid #3772ff;
+  border-radius: 10px;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.315952px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.customlink {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputenter {
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  width: 250px;
+  height: 30px;
+  align-self: center;
+  padding: 10px;
+  border: 1px solid #242731;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #808191;
+}
+
+.twobtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.btnlink2 {
+  background: #3772ff;
+  border: 0;
+  border-radius: 10px;
+  width: 142.54px;
+  height: 36px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btncancel {
+  border: 0;
+  border-radius: 10px;
+  width: 126px;
+  height: 36px;
+  border: 1px solid #242731;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}

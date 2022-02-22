@@ -1,0 +1,106 @@
+.leftbar {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 250px;
+  background: #000000;
+}
+.profilebar {
+  display: flex;
+  padding-left: 30px;
+}
+.profilebtn {
+  width: 29.82px;
+  height: 28.24px;
+  background: #3772ff;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  border-radius: 50%;
+  border: 0;
+  align-self: center;
+  margin: 7px;
+}
+.name {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.5618px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+}
+
+.menu {
+  display: flex;
+  padding: 0px 1px 0px 1px;
+}
+.menu:hover {
+  transition: 0.7s;
+  background: #353945;
+  width: 216px;
+  height: 50px;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+.menu:focus {
+  transition: 0.7s;
+  background: #353945;
+  width: 216px;
+  height: 50px;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.menutext {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808191;
+}
+
+.buttondiv {
+  display: flex;
+  height: 100px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.btnrate {
+  background: #353945;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  height: 33px;
+  width: 95px;
+  margin: 3px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.btnbuy {
+  background: #a3e3ff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  height: 33px;
+  width: 95px;
+  margin: 3px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  color: #3772ff;
+}
+.togglebar {
+  display: flex;
+  padding: 9px 0px 0px 23px;
+  height: 60px;
+}
